@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import WebHub from '../views/WebHub.vue'
+import WebUSB from '../views/WebUSB.vue'
 import goTo from 'vuetify/es5/services/goto'
 
 Vue.use(VueRouter)
@@ -8,8 +8,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'WebHub',
-    component: WebHub
+    name: 'WebUSB',
+    component: WebUSB
   },
   {
     path: '/about',

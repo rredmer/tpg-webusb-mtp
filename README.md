@@ -1,6 +1,6 @@
-# TPG WebHub
+# TPG WebUSB
 
-Welcome to **TPG WebHub**! This project is designed to provide a seamless interface for managing and interacting with TPG devices using a web-based application. Built with Vue.js and Vuetify, TPG WebHub offers a modern and responsive user experience.
+Welcome to **TPG WebUSB**! This project is designed to provide a seamless interface for managing and interacting with TPG devices using a web-based application. Built with Vue.js and Vuetify, TPG WebUSB offers a modern and responsive user experience.
 
 ## Features
 
@@ -43,4 +43,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Thank you for using TPG WebHub! If you have any questions or need further assistance, please don't hesitate to reach out.
+Thank you for using TPG WebUSB! If you have any questions or need further assistance, please don't hesitate to reach out.

@@ -1,5 +1,5 @@
 <template>
-  <div class="webhub">
+  <div class="WebUSB">
     <list-devices v-if="$store.state.TpgDevices.length" />
     <no-devices v-else />
     <v-btn block @click="getNewDevice()"> Connect </v-btn>
@@ -44,7 +44,7 @@ class deviceSettings {
  *          
  */
 export default {
-  name: "WebHub",
+  name: "WebUSB",
 
   components: {
     "list-devices": require("@/components/Todo/ListDevices.vue").default,
@@ -225,7 +225,7 @@ export default {
       let storageObjects = await this.getStorageIDS(MTPDevices[deviceIndex])
       if (storageObjects !== null) {
         let activeStorageID = storageObjects[0].storageID
-        console.log("WebHub.vue:initializeMTP calling getFileObjects with activeStorageID:", activeStorageID)
+        console.log("WebUSB.vue:initializeMTP calling getFileObjects with activeStorageID:", activeStorageID)
         let fileObjects = await this.getFileObjects(MTPDevices[deviceIndex], activeStorageID)
         let fileObject = fileObjects.filter((fileObjects) => fileObjects.fileName === TPG_AUDIO_FILE)
         console.log("Downloading File:", fileObject)

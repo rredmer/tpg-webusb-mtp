@@ -8,7 +8,7 @@
   </v-list>
 </template>
 <script>
-import TpgDevice from "./LenaDevice.vue";
+import TpgDevice from "./TpgDevice.vue";
 
 export default {
   computed: {
@@ -24,7 +24,7 @@ export default {
   created() {},
   methods: {},
   components: {
-    TpgDevice: require("@/components/Todo/LenaDevice.vue").default,
+    TpgDevice: require("@/components/Todo/TpgDevice.vue").default,
   },
 };
 </script>

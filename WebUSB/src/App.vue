@@ -69,7 +69,7 @@ export default {
   data: () => ({
     drawer: null,
     items: [
-      { title: "WebHub", icon: "mdi-format-list-checks", to: "/" },
+      { title: "WebUSB", icon: "mdi-format-list-checks", to: "/" },
       { title: "About", icon: "mdi-help-box", to: "/about" },
     ],
   }),
